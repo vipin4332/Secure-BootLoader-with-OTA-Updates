@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Keys (NEVER commit private key)
+keys/private_key.pem
+keys/public_key.pem
+bootloader/include/public_key.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+tests/build/
+tests/*.exe
+tests/*.out

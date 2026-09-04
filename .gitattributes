@@ -1,0 +1,16 @@
+# Enforce LF endings for source files (so Windows checkouts don't break the toolchain)
+*.c       text eol=lf
+*.h       text eol=lf
+*.s       text eol=lf
+*.S       text eol=lf
+*.ld      text eol=lf
+*.py      text eol=lf
+*.sh      text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+Makefile  text eol=lf
+
+# Treat binaries as binary
+*.bin     binary
+*.elf     binary
+*.pem     binary
